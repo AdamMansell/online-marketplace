@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Joe & Adam's Kick Shack</title>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Joe & Adam's Kick Shack</h1>
+    <form id="nameAddress">
+      <div class="form-group">
+        <label for="name">Please enter your name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="address">Please enter your shipping address:</label>
+        <input id="address" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Order</button>
+    </form>
+    <div id="output1">
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Recipt</h2>
+            <p class="card-text">Retro 5 Jordans.........$285<br><br><br></p>
+            <h3 class="card-text alert alert-warning">Total: $285.00</h3>
+            <h4 class="card-text">Thank you for shopping with us!</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h2 class="card-title">Shipping details</h2>
+            <h3 class="card-text">Thank you for your purchase, <span class="fullName"></span><br><br><br></h3>
+            <h3 class="card-text alert alert-warning">Total: $285.00</h3>
+            <h4 class="card-text">Thank you for shopping with us!</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
